@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+
+    font-family: 'Montserrat Alternate', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+
+
+}
+
+.station {
+
+    border: 10px solid aqua;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    color: aqua;
+    font-size: 20px;
+}
+
+.stations {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.foot, .add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 10px solid aqua;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.stationPages, .otherPages, .social, .stationsButton {
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 10px solid aqua;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+
+}

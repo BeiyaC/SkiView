@@ -1,0 +1,56 @@
+.ligne {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background: rgba(13, 202, 240, 0.2);
+    margin: 20px 0px 20px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    height: 200px;
+    width: 20%;
+    background: yellowgreen;
+    border: black 5px solid;
+}
+
+.static {
+    position: static; /*Peu importe ce que je fais, ça reste à sa place */
+    background: blue;
+}
+
+.sticky {
+    position: sticky; /*J'applique un top pour que ma box se déplace à tant du body*/
+    top: 100px;
+    background: blue;
+}
+
+.absolute {
+    position: absolute; /*Ma box reste dans le flux et se positionne que si je lui attribue une position*/
+    left: 1px;
+    top: 300px;
+    background: blue;
+}
+
+.fixed {
+    position: fixed; /*Ma box sort du flux et se positionne par rapport à mon body*/
+    top: 80px;
+    left: 80px;
+    background: blue;
+}
+
+
+.relative {
+    position: relative; /*J'effectue les changements depuis la position initial du bloc*/
+    top: 40px;
+    left: 40px;
+    background: blue;
+}
+
+/*.navbar {
+    position: sticky;
+    top: 2px;
+}*/
+
+
+

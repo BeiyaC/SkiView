@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$utilities: map-merge(
+  $utilities,("rounded-top": map-merge(
+        map-get($utilities, "rounded-top"),
+                        (values: map-merge(
+                                map-get(map-get($utilities, "rounded-top"),"values"),
+                                                        (null: 5rem),
+                                ),
+                        ),
+        ),
+        ),
+);
