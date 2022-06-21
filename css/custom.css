@@ -7702,7 +7702,7 @@ textarea.form-control-lg {
   margin: 0 !important;
 }
 
-.m-3 {
+.m-1 {
   margin: 0.25rem !important;
 }
 
@@ -18726,7 +18726,7 @@ textarea.form-control-lg {
   margin: 0 !important;
 }
 
-.m-3 {
+.m-1 {
   margin: 0.25rem !important;
 }
 
@@ -19510,8 +19510,8 @@ textarea.form-control-lg {
 }
 
 .rounded-start {
-  border-bottom-left-radius: var(--bs-border-radius) !important;
-  border-top-left-radius: var(--bs-border-radius) !important;
+  border-bottom-left-radius: 5rem !important;
+  border-top-left-radius: 5rem !important;
 }
 
 .visible {

@@ -10,3 +10,14 @@ $utilities: map-merge(
         ),
         ),
 );
+$utilities: map-merge(
+                $utilities,("rounded-start": map-merge(
+                        map-get($utilities, "rounded-start"),
+                        (values: map-merge(
+                                        map-get(map-get($utilities, "rounded-start"),"values"),
+                                        (null: 5rem),
+                        ),
+                        ),
+        ),
+        ),
+);
