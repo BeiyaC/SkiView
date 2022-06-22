@@ -10,38 +10,33 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-primary">
+<nav class="navbar navbar-expand-lg bg-success p-3 ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-light" href="#">SkiView</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Stations
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Alpes Huez</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Les 7 Laux</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Les 2 Alpes</a></li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Tapez votre recherche" aria-label="Search">
+                <button class="btn btn-outline-secondary text-light" type="submit">Rechercher</button>
             </form>
         </div>
     </div>
@@ -49,68 +44,72 @@
 
 <div class="container-fluid">
     <hero>
-        <h1>Region Isère</h1>
+        <h1 class="d-flex justify-content-center p-2">Region Isère</h1>
         <img src="Assets/test.jpg" alt="image de test" class="img-fluid custom-rounded">
     </hero>
 </div>
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-10 col-md-6 col-lg-4">
+<div class="container-fluid mt-5">
+    <div class="row justify-content-center text-secondary">
+        <div class="col-9 col-md-5 col-lg-3">
             <div class="row bg-info bg-opacity-25 m-3 rounded-top">
                 <img class="rounded-top" src="Assets/station_huez.jpg" alt="photo station">
-                <h2 class="p-3" >Station1</h2>
+                <h2 class="p-3" >Alpes Huez</h2>
                 <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet eos fuga incidunt omnis quia
                     tenetur velit veritatis? Aspernatur blanditiis cum, dolore dolorum error eveniet id laboriosam
                     officiis quibusdam repudiandae.</p>
-                <a href="index.html" class="btn btn-primary">Voir les pistes</a></div>
+                <a href="index.html" class="btn btn-secondary">Voir les pistes</a></div>
         </div>
-        <div class="col-10 col-md-6 col-lg-4">
+        <div class="col-9 col-md-5 col-lg-3">
             <div class="row bg-info bg-opacity-25 m-3 rounded-top">
-                <img class="rounded-top" src="Assets/station_huez.jpg" alt="photo station">
-                <h2 class="p-3">Station2</h2>
+                <img class="rounded-top" src="Assets/7laux.jpg" alt="photo station">
+                <h2 class="p-3">Les 7 Laux</h2>
                 <p class="p-3">Ab aliquid aperiam cupiditate dignissimos ducimus modi quo repellendus saepe, ullam! Accusamus
                     asperiores autem blanditiis eligendi fugiat non quas unde voluptate? Assumenda delectus, error
                     labore libero officiis quos saepe voluptas!</p>
-                <a href="index.html" class="btn btn-primary">Voir les pistes</a>
+                <a href="index.html" class="btn btn-secondary">Voir les pistes</a>
             </div>
         </div>
-        <div class="col-10 col-md-6 col-lg-4">
+        <div class="col-9 col-md-5 col-lg-3">
             <div class="row bg-info bg-opacity-25 m-3 rounded-top">
-                <img class="rounded-top" src="Assets/station_huez.jpg" alt="photo station">
-                <h2 class="p-3">Station3</h2>
+                <img class="rounded-top" src="Assets/2alpes.jpg" alt="photo station">
+                <h2 class="p-3">Les 2 Alpes</h2>
                 <p class="p-3">Adipisci cumque dolorum eaque id illum omnis, reprehenderit? Ad aut earum hic illo nemo provident
                     tempora! Est illum maiores natus neque non numquam qui quod sequi tempore. Aspernatur facilis,
                     quod!</p>
-                <a href="index.html" class="btn btn-primary">Voir les pistes</a>
+                <a href="index.html" class="btn btn-secondary">Voir les pistes</a>
             </div>
         </div>
     </div>
 </div>
-<div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-10 col-md-6 col-lg-4">
-                    <img class="img_test rounded-start" src="Assets/addStation.jpg" alt="photo">
+<div class="container-fluid mt-5 bg-info">
+            <div class="row d-flex justify-content-center pt-5 pb-5 m-3 text-secondary">
+                <div class="col-9 col-md-6 col-lg-4">
+                    <img class="img_test rounded-start-md round " src="Assets/addStation.jpg" alt="photo">
                 </div>
-                <div class="col-10 col-md-6 col-lg-4 p-3 bg-info">
+                <div class="col-9 col-md-6 col-lg-4 p-3 bg-light">
                     <h2>Ajouter une station</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias expedita iste maxime nesciunt
                     voluptatum? Atque, ducimus error expedita id inventore laudantium nesciunt nisi, porro provident
                     quidem quis, reiciendis repellendus similique!</p>
-                    <a href="index.html" class="btn btn-primary">Ajouter une station</a>
+                    <a href="index.html" class="btn btn-secondary">Ajouter une station</a>
                 </div>
             </div>
 
     </div>
 </div>
-<!--<div class="container">
-    <div class="card"><img src="../Assets/addStation.jpg" alt="" class="card-img-top">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content</p>
-            <a href="index.html" class="btn btn-primary">Go somewhere</a></div>
-    </div>
-</div>-->
+
+<div class="container-fluid mt-5 bg-success">
+    <footer class="py-3 my-4 ">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Accueil</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Stations</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pistes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">A propos de moi</a></li>
+        </ul>
+        <p class="text-center text-light">&copy; 2022 Beiya's Company, Inc <br>"Charly t'es trop beau <3"</p>
+    </footer>
+</div>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
